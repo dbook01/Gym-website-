@@ -1,0 +1,57 @@
+*{
+    background-color: blanchedalmond;
+}
+.form {
+    display: table;
+    align-items: center;
+}
+
+div.form {
+    display: table-row;
+    align-items: center;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 20px;
+
+
+}
+input:hover{
+    color: rgb(142, 176, 206);
+}
+
+label {
+    padding-right: 10px;
+    
+}
+form{
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 65px;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+input[type=submit]{
+    background-color: rgb(16, 3, 3);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  height: 45px;
+}
+input[type=submit]:hover{
+    background-color: #903ea7;
+    animation-name: initial;
+    cursor:pointer;
+   
+}
+    
