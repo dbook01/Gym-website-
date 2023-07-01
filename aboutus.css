@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/smoke-2437886_1280.jpg);
+    image-rendering: pixelated;
+    
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+}
+p{
+    color: rgb(213, 215, 218);
+}
