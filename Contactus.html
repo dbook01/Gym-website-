@@ -1,55 +1,37 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contactus.css">
-    <title>Document</title>
- </head>
- <body>
-    <h1> Contact Us </h1>
-    
-    <form action="" method="get" class="form">
-        <div class="form">
-          <label for="name">Name: </label>
-          <input type="text" name="name" id="name" required placeholder="Enter Your Name">
-        </div>
+<html>
+   <body>
+      <form name ="myform" onsubmit="return(display());">
+         <label> <b>Name</b>  <br> <br>
+          <input type="text" id="fname" name = "name" placeholder="Enter your name"> 
 
+         </label>
+        <br>
+        <br>
+         <label><b>Email</b><br><br>
+          <input type="text" id="fname" name = "name" placeholder="Enter your email id"> 
 
-        <div class="form">
-          <label for="email">Email: </label>
-          <input type="email" name="email" id="email" required placeholder="Enter your Email id">
-        </div>
-
-
-        <div class="form">
-          <label for="phone-number">Enter your Mobile No: </label>
-          <input type="email" name="email" id="email" required placeholder="Enter your mobile no.">
-        </div>
-
-
+         </label>
         
+        <br>
+        <br>
+         <label><b>Phone Number</b><br><br>
+          <input type="text" id="fname" name = "name" placeholder="Enter your phone number"> 
 
-
-        <div class="form">
-          <label for="Feedback">Your Query</label>
-          <input type="email" name="email" id="email" required placeholder="Tell us your queries">
-        </div>
-
-        <div class="form">
-            <label for="Gender">Enter your Gender: </label>
-            <input type="radio" name="Gender"  value="Male">Male
-            <input type="radio" name="Gender"  value="Female">Female
-            <input type="radio" name="Gender"  value="Other">Other
-          </div> <br>
+         </label>
         
+        <br><br>
+         <label><b>Queries</b><br><br>
+          <input type="text" id="fname" name = "name" placeholder="Enter your queries here "> 
 
-        <div class="form">
-          <input type="submit" value="Submit">
-        </div>
-
+         </label>
         
+        <br>
+         
+        
+        <br>
+      <input type="button" value="Result" onclick="display()"/>
       </form>
-      
- </body>
- </html>
+      <script src="index.js">
+      </script>
+   </body>
+</html>
